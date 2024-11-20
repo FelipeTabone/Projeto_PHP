@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1c1c1c, #2a2a2a); /* Gradiente escuro como fundo */
+    margin: 0;
+    padding: 20px;
+    display: block; /* Altera para block para empilhar elementos */
+    text-align: center; /* Centraliza o texto dentro do body */
+    color: #f8f9fa; /* Cor do texto padrão */
+}
+
+header {
+    background: linear-gradient(90deg, #15b800, #084600); /* Gradiente de cinza escuro */
+    color: #ffffff;
+    padding: 20px 0; /* Aumenta o padding para mais espaço */
+    width: 100%; /* Garante que o header ocupe a largura total */
+    box-shadow: 0 4px 10px rgba(13, 78, 0, 0.5); /* Sombra para dar profundidade */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+h1 {
+    margin: 0; /* Remove margens do h1 */
+}
+
+main {
+    margin: 20px auto; /* Adiciona margem vertical e centraliza horizontalmente */
+    padding: 20px;
+    background: #2b2b2b; /* Fundo escuro para o conteúdo */
+    border-radius: 5px;
+    width: 300px; /* Define uma largura fixa para centralizar melhor */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Adiciona sombra para um efeito de profundidade */
+}
+
+form {
+    width: 100%; /* Faz o formulário ocupar toda a largura do main */
+}
+
+label {
+    margin: 10px 0 5px; /* Espaçamento entre label e input */
+    color: #f8f9fa; /* Cor do texto dos labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #444; /* Cor da borda dos inputs */
+    border-radius: 5px;
+    width: 100%; /* Faz os inputs ocuparem toda a largura */
+    transition: border-color 0.3s; /* Transição suave para mudança de borda */
+    background-color: #555; /* Fundo escuro dos inputs */
+    color: #f8f9fa; /* Cor do texto dos inputs */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #28a745; /* Cor da borda ao focar (verde) */
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background: #28a745; /* Cor de fundo do botão de submit */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Faz o botão ocupar toda a largura */
+    transition: background 0.3s; /* Transição suave para o hover */
+}
+
+input[type="submit"]:hover {
+    background: #218838; /* Cor de fundo ao passar o mouse (verde mais escuro) */
+}
+
+/* Estilos adicionais para o botão */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #28a745; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s; /* Transição suave para o hover */
+}
+
+.button:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse (verde mais escuro) */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #444; /* Cor da borda da tabela */
+    padding: 10px;
+    text-align: left;
+    color: #f8f9fa; /* Cor do texto da tabela */
+}
+
+th {
+    background-color: #343a40; /* Cor de fundo do cabeçalho da tabela (cinza escuro) */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #3a3a3a; /* Cor de fundo das linhas pares */
+}
+
+tr:hover {
+    background-color: #000000; /* Cor de fundo ao passar o mouse sobre as linhas */
+}
